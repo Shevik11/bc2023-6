@@ -1,0 +1,45 @@
+{
+  "devices": [
+    {
+      "identifier": "4",
+      "name": "mobile",
+      "description": "no",
+      "serialNumber": "1114",
+      "manufacturer": "samsung",
+      "filename": "future_mobile.jpg",
+      "usage": "is use",
+      "user": "Kolia"
+    },
+    {
+      "identifier": "5",
+      "name": "Phone",
+      "description": "new phine",
+      "serialNumber": "1116",
+      "manufacturer": "Samsung",
+      "filename": "future_mobile.jpg",
+      "usage": "is use",
+      "user": "Oleksandr"
+    }
+  ],
+  "users": [
+    {
+      "name": "Oleksandr",
+      "surname": "Prokopovych",
+      "login": "login",
+      "password": "password",
+      "devices": []
+    },
+    {
+      "name": "Kolia",
+      "surname": "Hanets",
+      "login": "login1",
+      "password": "password",
+      "devices": [
+        {
+          "identifier": "4",
+          "usage": "is use"
+        }
+      ]
+    }
+  ]
+}
